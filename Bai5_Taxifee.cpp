@@ -6,7 +6,8 @@ void taxifee(float so_km ){
 	const int GIA_1(5000);
 	const int GIA_2(4000);
 	const int GIA_3(6000);
-    const int GIA_4(10000);
+    const int GIA_4(6000);
+    const int GIA_5(6000);
     float tong;
     if (so_km <= NGUONG_1){
         printf("Tien cuoc la: %0.3f\n", tong = so_km *GIA_1);
@@ -28,5 +29,5 @@ taxifee(0.5);
     return 0;
 }
 
-// Add GIA_4 = 10000
+// Add new GIA_4 and GIA_5
 
