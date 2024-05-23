@@ -2,7 +2,7 @@
 
 void taxifee(float so_km ){
     const int NGUONG_1(1);
-	const int NGUONG_2(31);
+	const int NGUONG_2(30);
 	const int GIA_1(5000);
 	const int GIA_2(4000);
 	const int GIA_3(6000);
@@ -26,3 +26,5 @@ int main(int argc, char const *argv[])
 taxifee(0.5);
     return 0;
 }
+
+// Add new comment and change the NGUONG_2
