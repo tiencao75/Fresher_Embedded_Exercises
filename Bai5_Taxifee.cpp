@@ -3,6 +3,7 @@
 void taxifee(float so_km ){
     const int NGUONG_1(1);
 	const int NGUONG_2(30);
+    const int NGUONG_3(35);
 	const int GIA_1(5000);
 	const int GIA_2(4000);
 	const int GIA_3(6000);
@@ -29,5 +30,8 @@ taxifee(0.5);
     return 0;
 }
 
+
 // Add new GIA_4 and GIA_5
+// Add NGUONG_3 =35
+
 
